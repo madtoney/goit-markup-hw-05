@@ -476,7 +476,11 @@ p {
   color: var(--CLOUD, #f4f4fd);
   line-height: 24px;
   letter-spacing: 0.02em;
-  max-width: 264px;
+  width: 264px;
+}
+
+.footer-socials-container {
+  margin: auto;
 }
 
 .footer-socials-text {
@@ -512,4 +516,71 @@ p {
 .footer-socials-list-link:hover,
 .footer-socials-list-link:focus {
   background-color: #31d0aa;
+}
+
+.form-container {
+  margin: auto;
+}
+
+.form-paragraph {
+  margin-bottom: 16px;
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.input {
+  min-width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  background-color: transparent;
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+}
+
+.footer-form::placeholder {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+}
+
+.form-button {
+  display: flex;
+  min-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.form-icon {
+  margin-left: 16px;
 }
